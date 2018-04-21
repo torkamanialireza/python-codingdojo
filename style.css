@@ -1,0 +1,292 @@
+/***
+
+name : Alireza Torkamani;
+project: python;
+Coding Dojo
+
+
+****/
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    max-width: 980px;
+    margin:0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+
+}
+#header .left {
+    width: 30%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left img {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+.right {
+    position: absolute;
+    width: 21%;
+    box-shadow: 3px 3px 4px #000000;
+    right: 14%;
+    background-color: #444444;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+.search {
+    background-color: #444444;
+    width: 50%;
+    height: 70px;
+    margin: 10px auto 10px auto;
+    border-radius: 20px;
+}
+#searchin {
+    background-color:  white;
+    width: 60%;
+    height: 50px;
+    position: relative;
+    margin: 0px auto 0px auto;
+}
+
+input#s {
+    width: 50%;
+    margin: 8px auto;
+    text-align: center;
+    margin-left: 15%;
+    display: block;
+    height: 40px;
+}
+div#searchn {
+    width:  60%;
+    margin-left: 40%;
+    background-color: #444444;
+    height: 100px;
+    border-radius: 0px 20px 0px 20px;
+    margin-top: 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*** navigation **/
+#nav {
+    width: 90%;
+    display: block;
+    background-color: #477fad;
+    box-shadow: 2px 2px 9px;
+    height: 45px;
+    margin: 30px auto 0px auto;
+    border-radius: 5px;
+}
+#nav li {
+    width: auto;
+    display:  inline-block;
+    text-align: center;
+    height:  45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.5em;
+    line-height: 45px;
+    color: white;
+}
+
+.box-l {
+    width: 25%;
+    height: 400px;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    text-align: center;
+}
+.box-r {
+    width: 75%;
+    height: 400px;
+    display: inline-block;
+}
+
+
+.box-l li:before {
+
+    content: "\00BB";
+    margin-left: 10px;
+    color:yellow;
+}
+
+.box-l li {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration:  underline;
+    color: white;
+}
+.p1 {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    color: #c7c2c2;
+}
+
+.line5 {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-style:  italic;
+    color: yellow;
+}
+h3 {
+    width:  100%;
+    margin: 0 auto;
+    display: block;
+    color: #CCC;
+    text-align: center;
+}
+#horizon {
+    width:  100%;
+    height: 10px;
+}
+
+.ho1 {
+   
+    height: 6px;
+    margin: 5px auto 0px auto;
+    width: 50%;
+    display: inline-block;
+}
+.ho2 {
+    
+    height: 6px;
+    margin: 5px auto 0px auto;
+    width: 50%;
+    display: inline-block;
+}
+.ho1 span {
+    background: #245076;
+    height:  5px;
+    width:  80%;
+    text-align:  center;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+}
+.ho2 span {
+
+    background: #245076;
+    height:  5px;
+    width:  80%;
+    text-align:  center;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+}
+
+
+/**content of down**/
+
+#concol2 {width:100%;margin:20px auto;}
+
+.col2 {
+    width: 50%;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.col2 p {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.col2 ul {
+    width: 53%;
+    margin:20px auto;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    color:#7eb1df;
+}
+
+.col2 ul li span {
+    background: url(square.png) black;
+    width: 5px;
+    height: 5px;
+    margin: 7px 50px 7px -20px;
+    position: absolute;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    
+    background: linear-gradient(#245076,#0966b7);
+    height: 70px;
+    line-height: 60px;
+}
+
+#footer #col3 {
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    
+
+}
+
+#col3 li {
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+
+
+#footer h3 {
+    height: 10px;
+    line-height: 10px;
+    font-size: 10px;
+    color: #7eb1df;
+    margin-bottom: 10px;
+}
+
+.right button {
+    position: absolute;
+    width: 15%;
+    height: 36px;
+    vertical-align: top;
+    display: inline-block;
+    top: 12px;
+    background-color: #245076;
+    color: white;
+    right: 44px;
+}
+
+section {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    margin-right: 27px;
+}
+
+section a {
+    text-decoration: none;
+    color: yellow;
+    margin-left: 5px;
+    margin-right: 5px;
+}
